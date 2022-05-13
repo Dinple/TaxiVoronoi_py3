@@ -21,7 +21,7 @@ def TaxiVoronoi(P):
 	t=time()
 	for poly in polies.values():
 		poly.intersectBorders()
-	print '%.3f'%(time()-t)
+	print('%.3f'%(time()-t))
 
 	for poly in polies.values():
 		poly.sortBorderVerts()
